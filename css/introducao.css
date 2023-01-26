@@ -84,7 +84,7 @@
 @media (max-width:650px) {
   .introducao {
     grid-template-columns: 1fr;
-    justify-items: center;
+    /* justify-items: center; */
   }
 
   .introducao img {
@@ -94,6 +94,18 @@
 
 @media (max-width:450px) {
   .introducao-texto {
-    margin-left: -120px;
+    margin-left: -80px;
+  }
+}
+
+@media (max-width:377px) {
+  .introducao img {
+    margin-left: -15px;
+  }
+}
+
+@media (max-width:300px) {
+  .introducao img {
+    margin-left: -30px;
   }
 }
